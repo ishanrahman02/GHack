@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.btn-class {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffb400; /* Yellow-Orange Background */
+  color: #1a1a1a; /* Black Text */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bg-gradient {
+  background: rgb(2, 85, 35);
+  background: linear-gradient(
+    90deg,
+    rgb(2, 85, 35) 17%,
+    rgb(67, 105, 21) 48%,
+    rgb(189, 235, 118) 99%
+  );
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #1cba8d, #9da839);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
