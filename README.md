@@ -67,3 +67,15 @@ government and census data has been compiled, so that when sanctioning a loan to
 employee will have information about the related agricultural practice.
 
 ## Architecture Diagram
+![Architecture Diagram](https://github.com/ishanrahman02/Ghack/blob/main/project_media/ArchDiagram.jpg)
+
+## List of Google AI tools used: 
+- AutoML on Vertex AI: Training a model on a dataset created for calculating the creditworthiness score
+- Temporal Fusion Transformer on Vertex AI: Creating a time-series forecast to generate the creditworthiness of a farmer for the future, based on historical trends.
+- Google AI Studio Gemini 1.0 Pro API: Contract Generation Portal
+- Dialogflow CX + Agent Builder: Customer Service Automation and financial recommendations bot on financial and economic related datastore (RAG Implementation)
+- Gen App Builder + Enterprise Search: Knowledge retreval of agriculture related information (RAG Implementation)
+- Gemini Code Assist: Throughout the code development process.
+
+## Demo video
+[![Demo Video](http://img.youtube.com/vi/52ePQGXI9lA/0.jpg)](http://www.youtube.com/watch?v=52ePQGXI9lA)
